@@ -1,0 +1,10 @@
+logs
+project/project
+project/target
+.classpath
+.history
+*.ipr
+*.iml
+*.db
+.metadata/
+target

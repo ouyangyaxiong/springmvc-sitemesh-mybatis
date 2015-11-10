@@ -1,0 +1,4 @@
+/*°ëÍ¸Ã÷*/
+.translucence{filter: alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+/*µ¯³ö´°¿Ú*/
+.popUpWin{position: fixed;text-align: center;width: 160px;top: 40%;left: 50%;margin-left: -80px;}

@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局样式*/
+body{dispaly:none;display: block;margin: 0px;-webkit-overflow-scrolling: touch;padding:0px;min-width:1200px;
+}
+html,body{font-size: 14px;font-family: Arial,sans-serif;color: #323232;font-family: Microsoft YaHei,Arial,sans-serif;background: #ececec;
+}
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img/mgr, ins, kbd, q, s, samp, small, select, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, li, fieldset, form, label, input, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea {font-size: inherit;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img/mgr, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, li, fieldset, form, label, legend {margin: 0;padding: 0;border: 0;outline: 0;vertical-align: baseline;background: no-scroll transparent;
+}
+link,meta ,script,title{display: none;
+}
+div {font-size: 14px;font-size: 1rem;
+}
+article, aside, footer, header, hgroup, main, nav, section,span ,div{display: block;
+}
+ul a, ol a {text-decoration: none;
+}
+ul, ol {list-style: none;font-size: 12px;font-size: 1rem;line-height: 18px;line-height: 1.625rem;border: 0;outline: 0;vertical-align: baseline;background: no-scroll transparent;padding: 0 0 15px;margin: 0;
+}
+ol, ul {border: 0;outline: 0;vertical-align: baseline;background: no-scroll transparent;
+}
+li{list-style:none;color:#e1e5e7;font-size:16px;}
+
+/*top样式*/
+.tomtop-home{
+	width:100%;
+	margin:0 auto;
+	clear:both;
+	min-width:680px;
+	}
+.tomtop-home #tomtop-nav{
+	width:100%;
+	min-width:680px;
+	height:20%;
+	margin:0 ;
+	float:left;
+	}
+.top-nav{
+	width: 100%;
+    height: 70px;
+    position: fixed;
+    min-width: 1200px;
+    float: left;
+    z-index: 9999;
+    background: #ECECEC;
+	}
+.top-nav-left{
+	background-color:#1968b3;
+	width:250px;
+	height:70px;
+	float:left;
+	display:inline-block;
+	text-align:center;
+	position: relative;
+	margin:0;
+	}
+
+.top-nav .top-nav-left .logo{
+	background:url(../../img/mgr/icon.png);
+	background-position:-370px 0;
+	width:220px;
+	height:28px;
+	cursor: pointer;
+	position: absolute;
+	margin: 5% 0px 0px 10%;
+	z-index:99;
+	}
+.left-bevel{
+	background:url(../../img/mgr/icon.png);
+	background-position:-24px -44px;
+	height:100%;
+	width:60px;
+	margin-left: 95%;
+    position: absolute;
+	}
+section.top-nav-title {
+	position: relative;
+	width: 150px;
+	float: left;
+	margin-left: 60px;
+}
+.line {
+	width: 50px;
+	height: 3px;
+	background-color: #1968b3;
+	margin-top: 26px;
+}
+.top-nav-title h1{
+	margin-top:10px;
+    font: 600 32px Micorsoft YaHei;
+    color: #1968b3;
+	}
+.top-nav-right{
+	float:right;
+	width:700px;
+	background-color:#393636;
+	height:70px;
+	position:relative;
+	}
+.right-bevel{
+	background:url(../../img/mgr/icon.png);
+	background-position:-4px -172px;
+	height:100%;
+	width:80px;
+	margin-left: -50px;
+    position: absolute;
+	}
+	
+.top-nav-right 	ul{
+	float:left;
+	}
+.top-nav-right  .top-e-mail{
+	background: url(../../img/mgr/icon.png);
+	background-position: -61px -231px;
+	height: 75%;
+	width: 30px;
+	margin-left: 1%;
+	position: absolute;
+	}	
+.top-nav-right  .top-personal{
+	background: url(../../img/mgr/icon.png);
+	background-position: -269px 17px;
+	height: 75%;
+	width: 30px;
+	margin-left: 4%;
+	position: absolute;
+	}	
+.exit_btn{
+	background: url(../../img/mgr/icon.png);
+	background-position: -297px 17px;
+	height: 75%;
+	width: 35px;
+	margin-right: 4%;
+	right:0;
+	position: absolute;
+	cursor:pointer;
+	}
+.exit_btn:hover{
+	background: url(../../img/mgr/icon.png);
+	background-position: -590px 17px;
+	}	
+	
+/*左边导航样式*/	
+.tomtop-content{
+	width:100%;
+	}
+.tomtop-content h4{
+	color:#e1e5e7;
+	margin:18% 0 0 14%;
+	}
+.tomtop-content a{
+	color:#e1e5e7;
+	font-size:14px;
+	}
+.tomtop-content-left{
+	width:250px;
+	background-color:#393636;
+	display:block;
+	z-index:0;
+	position:absolute;
+	top:70px;
+	}
+
+.tomtop-content-left ul li{
+    border-bottom: 1px solid #4e5f67;
+    margin-top: 20px;
+    cursor: pointer;
+    display:block;
+}
+
+/*一级菜单*/
+.firstItem{
+	font-size:16px;
+	height:35px;
+}
+.firstItem:hover{
+	background-color:#333
+}
+	
+.customer{
+	text-align:center;
+	}	
+.picture{
+	width:94px;
+	height:94px;
+	border-radius:50%;
+    z-index:1;
+	display: inline-block;
+    left: 0;
+    right: 0;
+	margin-top:20%;
+    background:url(../../img/mgr/icon.png);
+	background-position: -682px -1px;
+	border: 4px solid #6b777b;
+	}	
+.customer p{
+	color:#e1e5e7;
+	margin-top:5px;
+	}	
+.tomtop-content-left ul{
+	margin:5% 0 0 0;
+	}
+.leader-icon{
+	width:15%;
+	height:30px;
+	float:left;
+	border-right:1px solid #e1e5e7;
+	margin-right: 24px;
+	margin-left:25px;
+	}
+.leader-icon-1{
+	background: url(../../img/mgr/icon.png);
+	background-position: 0px -251px;
+	}
+.leader-icon-2{
+	background: url(../../img/mgr/icon.png);
+	background-position: -64px -251px;
+	}
+.leader-icon-3{
+	background: url(../../img/mgr/icon.png);
+	background-position: -129px -251px;
+	}
+.leader-icon-4{
+	background: url(../../img/mgr/icon.png);
+	background-position: -179px -251px;
+	}
+.leader-icon-5{
+	background: url(../../img/mgr/icon.png);
+	background-position: -244px -251px;
+	}
+.leader-icon-6{
+	background: url(../../img/mgr/icon.png);
+	background-position: -306px -251px;
+	}
+.leader-icon-7{
+	background: url(../../img/mgr/icon.png);
+	background-position:-378px -251px;
+	}
+.menu1:hover .leader-icon{
+	margin-left:48px;
+	}
+.tomtop-content-left ul .menu2{
+	width:75%;
+	height:40px;
+	border-bottom:1px solid #4e5f67;
+	margin-top:20px;
+	overflow:hidden;
+    cursor:pointer;
+	margin-left: 14%;
+	}	
+.menu1{
+	width:100%;
+	height:auto;
+	margin:6px 4px 0px 0px;
+	background-color:#444040;
+	color:#e1e5e7;
+	padding:6px 0px 0px 0px;
+	cursor:pointer;
+	overflow:hidden;
+	-moz-opacity:0.7;
+}	
+.tomtop-content-left ul li .list{
+	display:none;
+	margin:10px 0px;
+	}	
+.tomtop-content-left ul li .list a{
+	width:100%;
+	height:35px;
+	text-indent:80px;
+	}	
+.tomtop-content-left ul li .list a:link{
+	color:#e1e5e7;
+	text-decoration:none;
+	float:left;
+	padding:3px 5px 0px 5px;
+}
+.tomtop-content-left ul li .list a:visited{
+	color:#e1e5e7;
+	text-decoration:none;
+	float:left;
+	padding:3px 5px 0px 5px;
+	width:78%;
+}
+.tomtop-content-left ul li .list a:hover{
+	color:#e2e5e7;
+	padding:3px 3px 0px 20px;
+	text-decoration:none;
+/* 	background-color:#393636; */
+	background-color:#333;
+}
+.tomtop-content-left ul li .list a:active{
+	color:#e1e5e7;
+	float:left;
+	padding:3px 3px 0px 20px;
+	width:78%;
+	text-decoration:none;
+	background-color:#1968b3;
+}
+.tomtop-content-right{
+	min-width: 800px;
+    margin-top: 70px;
+    margin-left: 280px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+	}
+.content-1{
+	width:36%;
+	background-color:#fff;
+	margin-top:2%;
+	float:left;
+	}	
+.content-2{
+	width:58%;
+	background-color:#fff;
+	margin-top:2%;
+	float:left;
+	margin-left:2%;
+	}	
+.content-top{
+	width:100%;
+	height:32px;
+	float:left;
+	position:relative;
+	background-color:#ececec;
+	}	
+ .content-top	h1{
+	font:600 24px Microsoft YaHei;
+	color:#393636;
+	text-indent:24px;
+	line-height:44px;
+	width:25%;
+	background-color:#fff;
+	position:absolute;
+	}
+
+.left-span-bevel{
+	background:url(../../img/mgr/icon.png);
+	background-position:-132px -123px;
+	width:5%;
+	height:32px;
+	position:absolute;
+	margin-left: 24%;
+	}	
+.content-1 .right-span-bevel{
+	background:url(../../img/mgr/icon.png);
+	background-position:-539px -123px;
+	width:16%;
+	height:32px;
+	position:absolute;
+	right:0;
+	}	
+.clear{
+	clear:both;
+	}
+.content-1 ul{
+	width:90%;
+	margin:4%;
+	}	
+.content-1 ul li{
+	font:500 16px Micorsoft YaHei;
+	color:#393636;
+	position:relative;
+	line-height: 60px;
+    height: 60px;
+	border-bottom:1px dashed #b6b4b4;
+	}	
+span.time{
+	display:inline-block;
+	font:500 12px Arial;
+	color:#726d6d;
+	margin-left:22%;
+	}	
+.content-2 ul{
+	width:90%;
+	margin:4%;
+	}	
+.content-2 ul li{
+	font:500 16px Micorsoft YaHei;
+	color:#393636;
+	position:relative;
+	line-height: 60px;
+    height: 60px;
+	border-bottom:1px dashed #b6b4b4;
+	}	
+.content-2 .right-span-bevel{
+	background:url(../../img/mgr/icon.png);
+	background-position:-465px -123px;;
+	width:16%;
+	height:32px;
+	position:absolute;
+	right:0;
+	}	
+	
+	
+	

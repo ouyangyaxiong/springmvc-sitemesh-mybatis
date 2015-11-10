@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/jdbc.properties=UTF-8
+encoding//src/main/resources/log4j.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/decorators/mainDecorator.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/mgr/login/login.jsp=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/java/com/tomtop/portal/UserBizTest.java=UTF-8
+encoding/<project>=UTF-8
+encoding/readme.md=UTF-8

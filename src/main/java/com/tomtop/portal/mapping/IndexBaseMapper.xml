@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tomtop.portal.mapper.IndexBaseMapper" >
+  <resultMap id="BaseResultMap" type="com.tomtop.portal.pojo.IndexBase" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="banner_img_url" property="bannerImgUrl" jdbcType="VARCHAR" />
+    <result column="is_visible" property="isVisible" jdbcType="BIT" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, banner_img_url, is_visible
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_index_base
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_index_base
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.tomtop.portal.pojo.IndexBase" >
+    insert into t_index_base (id, banner_img_url, is_visible
+      )
+    values (#{id,jdbcType=INTEGER}, #{bannerImgUrl,jdbcType=VARCHAR}, #{isVisible,jdbcType=BIT}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.tomtop.portal.pojo.IndexBase" >
+    insert into t_index_base
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="bannerImgUrl != null" >
+        banner_img_url,
+      </if>
+      <if test="isVisible != null" >
+        is_visible,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="bannerImgUrl != null" >
+        #{bannerImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="isVisible != null" >
+        #{isVisible,jdbcType=BIT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.tomtop.portal.pojo.IndexBase" >
+    update t_index_base
+    <set >
+      <if test="bannerImgUrl != null" >
+        banner_img_url = #{bannerImgUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="isVisible != null" >
+        is_visible = #{isVisible,jdbcType=BIT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.tomtop.portal.pojo.IndexBase" >
+    update t_index_base
+    set banner_img_url = #{bannerImgUrl,jdbcType=VARCHAR},
+      is_visible = #{isVisible,jdbcType=BIT}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
