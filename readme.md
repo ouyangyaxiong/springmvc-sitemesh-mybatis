@@ -1,30 +1,27 @@
-TomTop Company Promotion Website Project
 =============
-
-
-»ùÓÚJ2EE¼¼Êõ¼Ü¹¹¶Ô¹«Ë¾¹ÙÍø½øÐÐÖØ¹¹£¬Ö¼ÔÚÌáÉýÐÔÄÜ£¬°²È«ÐÔÒÔ¼°Ó­ºÏÎ´À´¶à±äµÄÐèÇó±ä»¯¡£
+ã€‚
 
 ----------
 
-¸ÅÒª
+æ¦‚è¦
 -------------
 
-> **¼¼Êõ¸ÅÒª:**
+> **æŠ€æœ¯æ¦‚è¦:**
 
-> - ¾­µä**MVC**,Ê¹ÓÃSSM´î½¨ÏîÄ¿¿ò¼Ü,SpringMVC+Spring+Mybatis
-> - **Maven**½øÐÐÏîÄ¿¹¹½¨£¬¹ÜÀí
-> - **SpringJUnit**ÇáÁ¿¼¶±ð²âÊÔ£¬È·±£×Ô¶¨ÒåºËÐÄÒµÎñÂß¼­ÖÊÁ¿
-> - **SpringMVC**¹ú¼Ê»¯
-> - **MybatisGenerator**×Ô¶¯Íê³Étable2pojo¹«¹²²¿·ÖµÄÖØ¸´²Ù×÷£¬ÞðÆúÌåÁ¦ÀÍ¶¯£¬½â·ÅË«ÊÖ£¬×¨×¢ÔÚºËÐÄÒµÎñÊµÏÖÉÏ
-> - **Sitemesh**½øÐÐÒ³Ãæ¸´ÓÃ£¬²¼¾ÖºÍ×°ÊÎ
-> - ÆäËû£ºlog4j£¬tomcat£¬mysqlµÈ
+> - ç»å…¸**MVC**,ä½¿ç”¨SSMæ­å»ºé¡¹ç›®æ¡†æž¶,SpringMVC+Spring+Mybatis
+> - **Maven**è¿›è¡Œé¡¹ç›®æž„å»ºï¼Œç®¡ç†
+> - **SpringJUnit**è½»é‡çº§åˆ«æµ‹è¯•ï¼Œç¡®ä¿è‡ªå®šä¹‰æ ¸å¿ƒä¸šåŠ¡é€»è¾‘è´¨é‡
+> - **SpringMVC**å›½é™…åŒ–
+> - **MybatisGenerator**è‡ªåŠ¨å®Œæˆtable2pojoå…¬å…±éƒ¨åˆ†çš„é‡å¤æ“ä½œï¼Œæ‘’å¼ƒä½“åŠ›åŠ³åŠ¨ï¼Œè§£æ”¾åŒæ‰‹ï¼Œä¸“æ³¨åœ¨æ ¸å¿ƒä¸šåŠ¡å®žçŽ°ä¸Š
+> - **Sitemesh**è¿›è¡Œé¡µé¢å¤ç”¨ï¼Œå¸ƒå±€å’Œè£…é¥°
+> - å…¶ä»–ï¼šlog4jï¼Œtomcatï¼Œmysqlç­‰
 
 
 #### <i class="icon-hdd"></i> MybatisGenerator
 
-×Ô¶¯»¯ORMÓ³ÉäÉú³É¹¤¾ß£¬ÊÖ¶¯ÐÞ¸ÄÅäÖÃ£¬Ö´ÐÐ¹¤¾ß¼´¿ÉÍê³ÉÓ³Éä
+è‡ªåŠ¨åŒ–ORMæ˜ å°„ç”Ÿæˆå·¥å…·ï¼Œæ‰‹åŠ¨ä¿®æ”¹é…ç½®ï¼Œæ‰§è¡Œå·¥å…·å³å¯å®Œæˆæ˜ å°„
 
-> **Tip:** ÅäÖÃ¼þÒÑ¸ù¾ÝÏîÄ¿µÄÊµ¼ÊÐèÒªÅäÖÃºÃ£¬ÏêÇé²Î¿¼ÏîÄ¿ÄÚtoolsÄ¿Â¼
+> **Tip:** é…ç½®ä»¶å·²æ ¹æ®é¡¹ç›®çš„å®žé™…éœ€è¦é…ç½®å¥½ï¼Œè¯¦æƒ…å‚è€ƒé¡¹ç›®å†…toolsç›®å½•
 
 
 ----------
